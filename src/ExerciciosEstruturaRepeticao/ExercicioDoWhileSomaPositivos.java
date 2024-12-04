@@ -7,7 +7,7 @@ public class ExercicioDoWhileSomaPositivos {
 	public static void main(String[] args) {
 
 		// Variaveis
-		int numero, soma = 0, i;
+		int numero, soma = 0;
 
 		// Entrada e processamento
 		Scanner leia = new Scanner(System.in);
