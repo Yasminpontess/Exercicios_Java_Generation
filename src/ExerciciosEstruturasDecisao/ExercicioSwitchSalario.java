@@ -23,27 +23,27 @@ public class ExercicioSwitchSalario {
 	
 	switch(cargo) {
 	case 1:
-		System.out.println("Gerente");
+		System.out.println("Gerente" + colaborador);
 		System.out.println("O seu novo salario com reajuste é: " + (salario + (salario * 0.10 )));
 		break;
 	case 2:
-		System.out.println("Vendedor");
+		System.out.println("Vendedor" + colaborador);
 		System.out.println("O seu novo salario com reajuste é: " + (salario + (salario * 0.07 )));
 		break;
 	case 3:
-		System.out.println("Supervisor");
+		System.out.println("Supervisor" + colaborador);
 		System.out.println("O seu novo salario com reajuste é: " + (salario + (salario * 0.09 )));
 		break;
 	case 4:
-		System.out.println("Motorista");
+		System.out.println("Motorista" + colaborador);
 		System.out.println("O seu novo salario com reajuste é: " + (salario + (salario * 0.06 )));
 		break;
 	case 5:
-		System.out.println("Estoquista");
+		System.out.println("Estoquista" + colaborador);
 		System.out.println("O seu novo salario com reajuste é: " + (salario + (salario * 0.05 )));
 		break;
 	case 6:
-		System.out.println("Tecnico de TI");
+		System.out.println("Tecnico de TI" + colaborador);
 		System.out.println("O seu novo salario com reajuste é: " + (salario + (salario * 0.08 )));
 		break;
 		default:
