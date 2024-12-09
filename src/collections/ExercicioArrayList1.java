@@ -19,7 +19,7 @@ public class ExercicioArrayList1 {
 
 		}
 
-		// for(Heach) para percorrer os vetores e listar um em baixo do outro
+		// for(each) para percorrer os vetores e listar um em baixo do outro
 		System.out.println("\nLista de todas as cores: ");
 		for (String cor : cores) {
 			System.out.println(cor);
