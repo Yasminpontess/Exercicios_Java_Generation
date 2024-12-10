@@ -30,7 +30,7 @@ public class ExerciciosStack2 {
 			case 1:
 				System.out.println("Digite um Nome:");
 				String livrosB = entrada.nextLine();
-				livros.add(livrosB);
+				livros.push(livrosB);
 
 				System.out.println("Pilha:\n");
 				Iterator<String> iterator = livros.iterator();
